@@ -1,0 +1,740 @@
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* =============
+navbar start
+================ */
+nav {
+    position: absolute !important;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav .navbar-nav {
+    column-gap: 50px;
+}
+
+nav .navbar-nav li .nav-link {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+}
+
+nav .navbar-nav li .nav-link:hover {
+    color: #FF9600;
+}
+
+nav .getbtn {
+    padding: 19px 51px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: #FF9600;
+    border-radius: 4px;
+}
+
+/* =============
+navbar end
+================ */
+
+/* =============
+banner start
+================ */
+.banner {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 291px;
+    padding-bottom: 156px;
+    position: relative;
+}
+
+.banner h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    width: 819px;
+    margin: 0 auto;
+}
+
+.banner .getbtn {
+    padding: 19px 51px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: #FF9600;
+    border-radius: 4px;
+    display: inline-block;
+    transition: .4s;
+    margin: 0 10px;
+    margin-top: 55px;
+
+}
+
+.banner .getbtn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.banner img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* =============
+banner end
+================ */
+
+/* =============
+adventure start
+================ */
+.adventure {
+    margin-top: 72px;
+}
+
+.adventure h3 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: #14B9F1;
+}
+
+.adventure h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.adventure p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 62px;
+    position: relative;
+}
+
+.adventure p:after {
+    position: absolute;
+    top: -31px;
+    left: 0;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: #A0A0A0;
+}
+
+.adventure ul {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.adventure ul li {
+    margin-top: 30px;
+}
+
+.adventure ul i {
+    margin-right: 23px;
+}
+
+.adventure .getbtn {
+    padding: 19px 51px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: #FF9600;
+    border-radius: 4px;
+    display: inline-block;
+    transition: .4s;
+    margin-top: 40px;
+}
+
+.adventure img {
+    margin: 0 7px;
+}
+
+/* =============
+adventure end
+================ */
+
+/* =============
+counter start
+================ */
+.counter {
+    margin-top: 80px;
+}
+
+.counter .item {
+    background: #FFF4E5 url(../images/countershape.png);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.counter .item1 {
+    background: #E7FDE9 url(../images/countershape.png);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.counter .item2 {
+    background: #F2F2FD url(../images/countershape.png);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.counter .item3 {
+    background: #FDF1F5 url(../images/countershape.png);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.counter .item h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.counter .item p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.counter .item1 h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.counter .item1 p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.counter .item2 h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.counter .item2 p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.counter .item3 h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.counter .item3 p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* =============
+counter end
+================ */
+
+/* =============
+sports end
+================ */
+
+.sports {
+    background: #0F4152;
+    margin-top: 200px;
+    padding-top: 102px;
+    position: relative;
+}
+
+.sports h3 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: #FF9600;
+}
+
+.sports h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+}
+
+.sports h2:after {
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: #A0A0A0;
+}
+
+.sports .box {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.sports p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    width: 638px;
+    margin: 0 auto;
+}
+
+.sports .card {
+    background: #0F4152;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sports .card h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sports .card p {
+    width: auto;
+}
+
+.sports .last {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sports .last h3 {
+    font-family: 'Arizonia', cursive;
+    font-size: 160px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 83px;
+    padding-bottom: 80px;
+}
+
+.sports .bgimg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* =============
+sports end
+================ */
+/* =============
+test start
+================ */
+.test {
+    background: #FF9600;
+}
+
+.test .box {
+    display: flex;
+    justify-content: center;
+}
+
+.test .box img {
+    padding-top: 100px;
+}
+
+.test .text-box {
+    text-align: center;
+}
+
+.test .text-box h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 26px;
+    margin-bottom: 46px;
+}
+
+.test .text-box h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.test .getbtn {
+    padding: 19px 51px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: #0C3543;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.test .getbtn1 {
+    padding: 19px 51px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: #0C3543;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.test .row .get {
+    background: url(../images/testimg1.png);
+}
+
+.test .row .get h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 234px;
+    padding-left: 65px;
+    padding-right: 85px;
+}
+
+.test .row .get p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 19px;
+    padding-left: 65px;
+    padding-right: 85px;
+    padding-bottom: 55px;
+}
+
+.test .row .club {
+    background: url(../images/testimg2.png);
+}
+
+.test .row .club h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 234px;
+    padding-left: 65px;
+    padding-right: 75px;
+}
+
+.test .row .club p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 19px;
+    padding-left: 65px;
+    padding-right: 85px;
+    padding-bottom: 55px;
+}
+
+.test .row .meet {
+    background: url(../images/testimg3.png);
+}
+
+.test .row .meet h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 234px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.test .row .meet p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 19px;
+    padding-left: 65px;
+    padding-right: 85px;
+    padding-bottom: 55px;
+}
+
+
+
+/* =============
+test end
+================ */
+
+/* =============
+Choose end
+================ */
+.Choose {
+    margin-bottom: 100px;
+}
+
+.Choose .title {
+    display: flex;
+    justify-content: center;
+}
+
+.Choose .title2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Choose .title h3 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: #14B9F1;
+    margin-top: 200px;
+}
+
+.Choose .title2 h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    position: relative;
+}
+
+.Choose .title2 h2:after {
+    position: absolute;
+    top: 90px;
+    left: 180px;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: #A0A0A0;
+}
+
+.Choose .row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.Choose .row h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #222222;
+    line-height: 31.2px;
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+
+.Choose .row p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 275px;
+    color: #222222;
+    line-height: 23.4px;
+}
+
+/* =============
+Choose end
+================ */
+/* =============
+News start
+================ */
+.News {
+    background: #F7F7F7;
+    margin-top: 200px;
+    padding-top: 102px;
+    position: relative;
+    padding-bottom: 128px;
+}
+
+.News h3 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: #FF9600;
+}
+
+.News h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    position: relative;
+    color: #222222;
+}
+
+.News h2:after {
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: #A0A0A0;
+}
+
+.News .box {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.News p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    width: 638px;
+    margin: 0 auto;
+}
+
+.News .card {
+    background: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.News .card h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.News .card p {
+    width: auto;
+    margin-bottom: 75px;
+}
+
+.News .card a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF9600;
+    margin-bottom: 37px;
+}
+
+/* =============
+News end
+================ */
+
+/* =============
+logo-itme end
+================ */
+.fotar .box {
+    display: flex;
+}
+
+.fotar .box .left {
+    width: 35%;
+}
+
+.fotar .box .right {
+    width: 65%;
+    background: #0C3543;
+    padding-left: 137px;
+}
+
+.fotar .box .right p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #Fff;
+}
+
+.fotar .box .right img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.fotar .box .right .get {
+    display: flex;
+}
+
+.fotar .box .right .get .getbtn {
+    padding: 19px 51px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: #FF9600;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 150px;
+    margin-right: 58px;
+    position: relative;
+}
+
+.fotar .box .right .get .getbtn :after {
+    position: absolute;
+    top: -31px;
+    left: 0px;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: #A0A0A0;
+}
+
+.fotar .box .right .get p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #Fff;
+    width: 559px;
+    line-height: 23.4px;
+}
+
+.fotar .box .right .us {
+    display: flex;
+}
+
+.fotar .box .right .us h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #Fff;
+    margin-bottom: 157px;
+    margin-right: 107px;
+
+}
+
+.fotar .box .right .us p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #Fff;
+    margin-bottom: 26px;
+
+}
+
+/* =============
+logo-itme end
+================ */
